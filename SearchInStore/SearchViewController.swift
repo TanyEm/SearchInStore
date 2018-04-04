@@ -8,7 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SearchViewController: UIViewController {
+
+    @IBOutlet weak var searchBar: UISearchBar!
+    @IBOutlet weak var tableView: UITableView!
+
+    Excerpt From: “iOS Apprentice.” iBooks.
 
     override func viewDidLoad() {
         super.viewDidLoad()
